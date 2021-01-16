@@ -38,6 +38,7 @@ namespace MusicPlayerApp
             this.ClientSize = new System.Drawing.Size(412, 218);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
