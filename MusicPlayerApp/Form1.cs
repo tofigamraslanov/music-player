@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MusicPlayerApp
 {
-    public partial class Form1 : Form
+    public partial class MusicPlayer : Form
     {
-        public Form1()
+        public MusicPlayer()
         {
             InitializeComponent();
         }
@@ -20,6 +20,12 @@ namespace MusicPlayerApp
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Close the app
+            this.Close();
         }
     }
 }
